@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.title {
+  font-weight: bolder;
+  margin-left: 400px;
+  width: 100%;
+  font-size: 2.2rem;
+  color: white;
+  text-transform: uppercase;
+
+}
+
+.text {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.section-text {
+  margin: 30px 200px 50px 200px;
+  font-size: 1.12rem;
+  font-weight: bolder;
+  line-height: 1.5rem;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.nav-item {
+  text-align: center;
+  height: 55px;
+  margin: 0 10px 0 10px;
+  color: white;
+  font-size: 20px;
+  width: 100%
+}
+
+.logo {
+  margin-top: 100px;
+}
+
+.arrow {
+  position: absolute;
+  bottom: 14px;
+  width: 60px;
+  height: 60px;
+  background: url(https://static.wixstatic.com/media/8d13be_c024eae643c64370a6a85c81231f2cde.png/v1/fill/w_122,h_122,al_c,q_80,usm_0.66_1.00_0.01/8d13be_c024eae643c64370a6a85c81231f2cde.webp) center no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(270deg);
+}
+
+.invertedArrow {
+  position: absolute;
+  top: 100px;
+  width: 60px;
+  height: 60px;
+  background: url(https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/ChevronUpCircle-128.png) center no-repeat;
+  background-size: 100% 100%;
+  transform: rotate(180deg);
+}
+
+.pic-box {
+  height: 30vh;
+  width: 30vw;
+  margin: 10px 10px 10px 10px;
+}
+
+.pic-box:nth-child(1) {
+  background: url(https://static.wixstatic.com/media/27af89_a1bf2be633bb4d6ab6e0757361726383~mv2_d_1801_1408_s_2.jpg/v1/fill/w_604,h_544,al_c,q_80,usm_0.66_1.00_0.01/27af89_a1bf2be633bb4d6ab6e0757361726383~mv2_d_1801_1408_s_2.webp) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.pic-box:nth-child(2) {
+  background: url(https://static.wixstatic.com/media/ce7cf2_c7938a697ec0458791510edd01cf90f4~mv2.jpg/v1/fill/w_604,h_544,al_c,q_80,usm_0.66_1.00_0.01/ce7cf2_c7938a697ec0458791510edd01cf90f4~mv2.webp) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.pic-box:nth-child(3) {
+  background: url(https://static.wixstatic.com/media/ce7cf2_d21fbeb7d8394645b0b1d9478d9cbc8a~mv2.jpg/v1/fill/w_604,h_544,al_c,q_80,usm_0.66_1.00_0.01/ce7cf2_d21fbeb7d8394645b0b1d9478d9cbc8a~mv2.webp) center no-repeat;
+}
+
+.main {
+  position: relative;
+  background: url(http://thecaregiverspace.org/wp-content/uploads/2014/12/focusonwhatmatters.jpg) fixed center no-repeat;
+  background-size: 100% 100%;
+  height: 430vh;
+  width: 100vw;
+}
+
+.top-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+
+}
+
+.section-two {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+.section-three {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: black;
+  height: 65vh;
+  width: 100%;
+}
+
+.section-four {
+  height: 20vh;
+  width: 100%;
+}
+
+.section-five {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: black;
+  height: 80vh;
+  width: 100%;
+}
+
+.section-six {
+  background: url(https://pbs.twimg.com/media/Cvi-Q6-W8AAvsC4.jpg) center no-repeat;
+  background-size: 100% 100%;
+  height: 60vh;
+  width: 100%;
+}
+
+.section-seven {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.section-eight {
+  background: black;
+  position: relative;
+  height: 50vh;
+  width: 100%;
+}
+
+.bottom-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+}
+
+.social-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  height: 10vh;
+}
+
+.social {
+  height: 4.5vh;
+  width: 3.5vw;
+  margin: 5px 5px 5px 5px;
+}
+
+.social:nth-child(1) {
+  background: url(https://static.wixstatic.com/media/01ab6619093f45388d66736ec22e5885.png/v1/fill/w_56,h_56,al_c,q_80,usm_0.66_1.00_0.01/01ab6619093f45388d66736ec22e5885.webp) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.social:nth-child(2) {
+  background: url(https://static.wixstatic.com/media/23fd2a2be53141ed810f4d3dcdcd01fa.png/v1/fill/w_56,h_56,al_c,q_80,usm_0.66_1.00_0.01/23fd2a2be53141ed810f4d3dcdcd01fa.webp) center no-repeat;
+}
+
+.social:nth-child(3) {
+  background: url(https://static.wixstatic.com/media/7528824071724d12a3e6c31eee0b40d4.png/v1/fill/w_56,h_56,al_c,q_80,usm_0.66_1.00_0.01/7528824071724d12a3e6c31eee0b40d4.webp) center no-repeat;
+  background-size: 100% 100%;
+}
+
+.social:nth-child(4) {
+  background: url(https://static.wixstatic.com/media/81af6121f84c41a5b4391d7d37fce12a.png/v1/fill/w_56,h_56,al_c,q_80,usm_0.66_1.00_0.01/81af6121f84c41a5b4391d7d37fce12a.webp) center no-repeat;
+}
